@@ -1,0 +1,102 @@
+/* Styles for the container holding the class information and table */
+.class-table-container {
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for better visibility */
+}
+
+/* Styles specific to tables within the class-table-container */
+.class-table-container .class-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Ensures borders are merged */
+    margin-top: 20px;
+}
+
+.class-table-container .class-table th,
+.class-table-container .class-table td {
+    border: 1px solid #dee2e6; /* Light grey border */
+    padding: 8px; /* Padding for content inside cells */
+    text-align: left;
+}
+
+.class-table-container .class-table th {
+    background-color: #e9ecef; /* Light grey background for header */
+    color: #495057; /* Dark grey text color */
+}
+
+/* Styling for the form submit button */
+.class-table-container .submit-container .btn-primary {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.class-table-container .submit-container .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    
+}
+
+/* Extra responsiveness for the layout */
+@media (max-width: 768px) {
+    .class-table-container {
+        padding: 10px;
+    }
+
+    .class-table-container .class-table {
+        font-size: 14px; /* Smaller text on smaller screens */
+    }
+}
+
+
+.class-table-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center; /* Center the content */
+}
+
+.class-course-header, .class-header {
+    margin-bottom: 20px;
+}
+
+.class-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.class-table th, .class-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.class-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.submit-container {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}

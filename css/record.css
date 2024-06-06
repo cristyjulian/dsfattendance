@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.main-header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+table {
+    background-color: white;
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.table-container {
+    background-color: #ffffff; /* Light background for the container */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds shadow for better depth */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+.table-container h2 {
+    text-align: center; /* Centers the subject headings */
+    color: #4CAF50; /* Optional: color the heading to match the theme */
+    margin-top: 0; /* Removes top margin for tighter spacing */
+    padding-top: 50px; /* Adds padding above the heading for spacing */
+}

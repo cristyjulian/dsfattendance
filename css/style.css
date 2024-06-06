@@ -1,0 +1,147 @@
+/*table { border-collapse: separate; background-color: #dad6d6; border-spacing: 0; width: 50%; color: #666666; text-shadow: 0 1px 0 #FFFFFF; border: 1px solid #CCCCCC; box-shadow: 0; margin: 0 auto; }
+table thead tr th { background: none repeat scroll 0 0 #a3a3a3; color: #222222; padding: 10px 14px; text-align: left; border-top: 0 none; font-size: 12px; }
+table tbody tr td{ 
+	
+
+    background-color: #FFFFFF;
+	font-size: 11px;
+    text-align: left;
+	padding: 10px 14px;
+	border-top: 1px solid #DDDDDD;
+}
+*/
+table {
+	width: 70%;
+	border-collapse: collapse;
+	
+}
+
+/* Style for table headers */
+th {
+	background-color: #f2f2f2;
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+/* Style for table cells */
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+/* Style for even rows */
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/* Style for table hover effect */
+tr:hover {
+	background-color: #ddd;
+}
+.container {
+    width: 100%; /* Adjust according to preference */
+    margin: 50px auto; /* Centering the container */
+    padding: 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    border: 2px solid #dee2e6; /* Light grey border */
+    border-radius: 8px; /* Rounded corners for smooth design */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+
+#pagination {
+	text-align: center;
+	margin-top: 20px;
+}
+#pagination a {
+	border: 1px solid #CCCCCC;
+	padding: 5px 10px;
+	font-family: arial;
+	text-decoration: none;
+	background: none repeat scroll 0 0 #EEEEEE;
+	color: #222222;
+}
+#pagination a:hover {
+	background-color: #FFFFFF;
+}
+a#active{
+	background-color: #FFFFFF;
+}
+#sample thead tr th {
+	font-size: 20px;
+}
+
+
+input[type="text"] {
+	padding: 8px;
+	margin: 5px 0;
+	box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Style for the input text when it's focused */
+input[type="text"]:focus {
+	border-color: #007bff; /* Change border color when focused */
+	outline: none; /* Remove the default focus outline */
+}
+  /* Style for the button */
+  input[type="submit"] {
+	padding: 5px 10px;
+	margin: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+}
+
+/* Style for the button when hovered */
+input[type="submit"]:hover {
+	background-color: #0056b3; /* Darker shade of the primary color */
+}
+
+/* Style for the button when pressed */
+input[type="submit"]:active {
+	background-color: #0056b3; /* Darker shade of the primary color */
+	transform: translateY(1px); /* Move the button down 1px when pressed */
+}
+#secret {
+	margin-top: 19px; width: 168px;
+}
+.delete-button {
+    background-color: #f44336; /* Red */
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.edit-button:hover {
+    background-color: #388E3C;
+}
+.welcome-message {
+    display: block; /* makes the span behave like a block-level element */
+    padding: 8px 20px; /* adds padding around the text */
+    color: #fff; /* white color for the text */
+    background-color: #007bff; /* blue background similar to the buttons */
+    margin-bottom: 5px; /* adds some space below the message */
+    text-align: center; /* centers the text */
+    font-weight: bold; /* makes the font bold */
+}

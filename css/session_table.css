@@ -1,0 +1,46 @@
+.class-header {
+    margin-top: 90px;
+    margin-bottom: 20px; /* Increase bottom margin to create space */
+    padding-bottom: 5px;
+    border-bottom: 2px solid #4CAF50;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.class-table-container {
+   
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+    padding: 20px; /* Add padding around the container */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+.class-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.class-table th, .class-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.class-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+.submit-container {
+    display: flex;
+    justify-content: center; /* Aligns horizontally center */
+    margin-top: 20px; /* Optional: adds some space above the button */
+}
+ .date-today {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    color: #333;
+}
+

@@ -1,0 +1,69 @@
+ .main-menu button {
+                background-color: #007BFF; /* Bootstrap primary blue */
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                margin: 5px;
+                border-radius: 5px;
+                margin-right: 20px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+            }
+            .main-menu button:hover {
+                background-color: #0056b3; /* Darker blue */
+            }
+            .has-submenu > button {
+                background-color: #6c757d; /* Bootstrap secondary color */
+            }
+            .has-submenu > button:hover {
+                background-color: #5a6268; /* Darker grey */
+            }
+            .has-submenu .sub-menu {
+                display: none; /* Hide the submenu */
+                position: absolute;
+                background-color: grey; /* Very light gray */
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                z-index: 1;
+                margin-top: 5px;
+                border-radius: 5px;
+            }
+            .has-submenu:hover .sub-menu {
+                display: block; /* Show the submenu on hover */
+            }
+            .sub-menu button {
+                display: block;
+                color: white; /* Almost black */
+                width: 90%;
+                text-align: center;
+            }
+            .sub-menu button:hover {
+                background-color: #e2e6ea; /* Slightly darker light gray */
+            }
+            .span{
+              color: #007BFF;
+            }
+            .dbcon{
+              background: green; /* Dark blue background */
+              color: white;
+              padding: 5px 10px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              border-radius: 5px;
+              margin-left: 5px;
+              margin-right: 5px;
+              margin-top: 5px;
+          }
+          .kh{
+            
+            padding: 200px 100px;
+            margin-top: 30px;
+          
+          }
+          .h2{
+            margin-top: 50px;
+          }
+          .table_container{
+            padding: 30px 20px;
+          }
+          

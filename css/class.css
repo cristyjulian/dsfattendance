@@ -1,0 +1,90 @@
+.search_container {
+  display: flex;
+  justify-content: flex-end;
+  /* Align items to the right */
+  padding: 20px;
+}
+
+.label-container h3 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.label-container h4 {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.label-container h5 {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.table-container {
+  margin-bottom: 2em;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+}
+
+.search-form .form-control {
+  width: 200px;
+  /* Adjust width as needed */
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.search-form .btn {
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.search-form .btn:hover {
+  background-color: #0056b3;
+  /* Darker shade of primary color */
+}
+
+.search-form .btn i {
+  margin-right: 5px;
+}
+
+.print-button {
+  background-color: #28a745;
+  /* Bootstrap success color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.print-button:hover {
+  background-color: #218838;
+  /* Darker shade of success color */
+}
+
+.print-button i {
+  margin-right: 5px;
+}
